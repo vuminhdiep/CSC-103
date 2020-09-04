@@ -1,0 +1,107 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\vumin\Google Drive (vud@union.edu)\FALL 19\CSC 103\Coding python\test.py 
+Welcome to our bank
+1: New account 
+2: Operations 
+3: Exit
+Your selection: 1
+Your 
+Name: Zeynep Orhan
+Address: FFFFFFFFF
+Phone: YYYYYYY
+Amount: 50
+Password: xxxxxx
+Retype password: xxxxxx
+Your account has been succesfully created as: 
+Name : Zeynep Orhan
+Address : FFFFFFFFF
+Phone : YYYYYYY
+Balance : 50
+Password : xxxxxx
+Account number : 50
+Do not forget your account number and password
+Press -1 for main menu 2 for operations: -1
+Welcome to our bank
+1: New account 
+2: Operations 
+3: Exit
+Your selection: 2
+Enter your account number or type -1 to exit: 50
+Enter your password: xxxxxx
+Select operations from the menu
+1: Change password
+2: Deposit
+3: Withdraw
+4: Print
+5: Exit
+Your choice: 1
+New password: 333
+Retype new password: 332
+They dont match, retype again: 333
+Your password has been updated
+Select operations from the menu
+1: Change password
+2: Deposit
+3: Withdraw
+4: Print
+5: Exit
+Your choice: 2
+Amount: 100
+Operation successful
+Select operations from the menu
+1: Change password
+2: Deposit
+3: Withdraw
+4: Print
+5: Exit
+Your choice: 3
+Withdraw: 50
+Operation successful
+Select operations from the menu
+1: Change password
+2: Deposit
+3: Withdraw
+4: Print
+5: Exit
+Your choice: 4
+Name : Zeynep Orhan
+Address : FFFFFFFFF
+Phone : YYYYYYY
+Balance : 100
+Password : 333
+Account number : 50
+Select operations from the menu
+1: Change password
+2: Deposit
+3: Withdraw
+4: Print
+5: Exit
+Your choice: 5
+Goodbye!
+Welcome to our bank
+1: New account 
+2: Operations 
+3: Exit
+Your selection: 2
+Enter your account number or type -1 to exit: 150
+Account not exist. Re-enter your account number or type -1 to exit: 50
+Enter your password: 123
+Retype again: 124
+Retype again: 125
+Your account has been blocked! Call the bank immediately!
+Welcome to our bank
+1: New account 
+2: Operations 
+3: Exit
+Your selection: 2
+Enter your account number or type -1 to exit: 50
+Your account has been blocked
+Welcome to our bank
+1: New account 
+2: Operations 
+3: Exit
+Your selection: 3
+Operations done!
+>>> 

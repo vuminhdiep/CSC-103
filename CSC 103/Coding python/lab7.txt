@@ -1,0 +1,9 @@
+def pascalt(n, cell):
+	for nn in range(0,n+1):
+		print(' '*((n-nn)*cell),end='')
+		for k in range(0,nn+1):
+			cm=comb(nn,k)
+			print('{0:{1}}'.format(cm,cell),end='')
+			print(' '*cell,end='')
+		print()
+

@@ -1,0 +1,23 @@
+allrainy = []
+allrainm = []
+months = []
+for m in range(0,12):
+	allrainm.append([])
+def readdata():
+	with open('rainspace.txt','r') as rain:
+		header = rain.readline()
+		mon = header.split()		#cut str to pieces, return to list
+		for m in mon:
+			months.append(m)
+		line = rain.readline()
+
+		while line:
+			yearrain = [int(e) for e in line.split()]
+			allrainy.append(yearrain)
+			for m in range(0,12):
+				allrainm[m].append(yearrain[m+1])
+
+def avgy(y):
+	av=sum(allrainy[y-2000][1:])//12
+	return av
+
